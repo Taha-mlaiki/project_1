@@ -16,7 +16,7 @@ html{
 }
 body {
     font-family:"Work Sans","sans-serif";
-    padding:20px;
+    padding:11px;
    
 }
 .container {
@@ -178,11 +178,18 @@ transform: translate(-50%,-50%);
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     padding:30px;
     gap: 30px;
-    background-color: #ebeced;
+    
 }
 .features .container .feat {
     text-align: center;
+    padding:30px;
+
 }
+.features .container .feat:hover {
+    box-shadow: 1px -3px 20px rgba(0, 0, 0, 0.178);
+    cursor: pointer;
+}
+
 .features .container .feat i {
     font-size: 20px;
     padding-bottom:15px;
